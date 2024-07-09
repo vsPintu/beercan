@@ -6,7 +6,7 @@ import { SquarePlus } from 'lucide-react';
 import { bottle } from '../helper/index';
 import { HeartIcon } from './Icons';
 
-function Card() {
+const RebelCardSlider = () => {
   return (
     <>
       <div className='w-full'>
@@ -43,4 +43,4 @@ function Card() {
   )
 }
 
-export default Card
+export default RebelCardSlider
