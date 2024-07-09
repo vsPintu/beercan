@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import React from 'react'
+import Card from './components/common/Card'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-     App
+     <div className=' max-w-[1440px] overflow-hidden mx-auto'>
+        <Card/>
+     </div>
     </>
   )
 }

@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'supernova':"#FFCC02",
+        gallery:"#EBEBEB",
+        remy:"#fde1f2",
+        red:"#ff0000"
+      }
+    },
   },
   plugins: [],
 }
