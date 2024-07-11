@@ -1,19 +1,18 @@
 import React from "react";
-import 'slick-carousel/slick/slick-theme.css';
-import 'slick-carousel/slick/slick.css';
-import Navbar from "./components/common/Navbar";
-// import NavBarAgain from "./components/common/NavBarAgain";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 import RebelCardSlider from "./components/homepage/RebelCardSlider";
-// import Partner from "./components/homepage/Partner";
+import Header from "./components/homepage/Header";
+import FreeShipping from "./components/common/FreeShipping";
+import SideBar from "./components/common/SideBar";
 
 function App() {
-
   return (
-    <div >
-    {/* <NavBarAgain/> */}
-      <Navbar />
-      <RebelCardSlider/>
-      {/* <Partner/> */}
+    <div className="max-w-[1440px] mx-auto">
+      <SideBar />
+      <FreeShipping />
+      <Header />
+      <RebelCardSlider />
     </div>
   );
 }
