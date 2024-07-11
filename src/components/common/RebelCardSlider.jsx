@@ -1,9 +1,5 @@
 import React from 'react'
-// import { ChevronLeft } from 'lucide-react';
-// import { ChevronRight } from 'lucide-react';
-import { Heart } from 'lucide-react';
-import { SquarePlus } from 'lucide-react';
-import { bottle } from '../helper/index';
+import { bottle } from '../common/helper';
 import { HeartIcon } from './Icons';
 
 const RebelCardSlider = () => {
@@ -31,7 +27,7 @@ const RebelCardSlider = () => {
            <p className='mt-2 font-["inter"] h-[22px] w-[130px] items-center px-1 text-sm bg-remy rounded-sm'>{item.para}</p>
            <div className='w-full flex mt-3 justify-between'>
             <p className='text-xl text-supernova font-semibold group-hover:text-black duration-300'> <span className='text-2xl font-semibold font-["poppins"]'>€</span>{item.rating}</p>
-            <SquarePlus className='text-neutral-700' />
+            {/* <SquarePlus className='text-neutral-700' /> */}
            </div>
            </div>
 

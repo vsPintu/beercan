@@ -9,7 +9,6 @@ export default {
         silver: "#cccccc",
         gallery:"#EBEBEB",
         remy:"#fde1f2",
-        red:"#ff0000"
       },
       fontFamily: {
         poppins: "poppins",
@@ -17,6 +16,9 @@ export default {
         roboto: "roboto",
         play: "play",
       },
+      backgroundImage:{
+        heroBg: "url('./assets/images/homepage/webp/hero_bg_image.webp')",
+      }
     },
   },
   plugins: [],

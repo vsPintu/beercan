@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg_image{
+    /* background: url('./assets/images/homepage/webp/hero_bg_image.webp'); */
+    background-position: center;
+    background-size: 100% 100%;
+}
