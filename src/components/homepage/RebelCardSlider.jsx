@@ -27,6 +27,7 @@ const RebelCardSlider = () => {
         breakpoint: 992,
         settings: {
           slidesToShow: 3,
+          dots:true,  
           arrows: true,
         },
       },
