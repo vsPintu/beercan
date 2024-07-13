@@ -1,11 +1,20 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import ToggleNavBtn from "./ToggleNavBtn";
 import { Link } from "react-router-dom";
 import { toggleContext } from "./Context";
+import NavIcons from "./NavIcons";
 
 const SideBar = () => {
   const { toggleNavBtn, setToggleNavBtn } = useContext(toggleContext);
-
+  useEffect(()=>{
+    if(toggleNavBtn){
+      document.body.classList.add("no-scroll");
+    }
+    else{
+      document.body.classList.remove("no-scroll");
+    }
+  },[toggleNavBtn])
+  
   return (
     <div
       onClick={() => setToggleNavBtn(!toggleNavBtn)}
@@ -16,7 +25,7 @@ const SideBar = () => {
       <div className="flex justify-end pt-16 pr-4 z-[99]">
         <ToggleNavBtn />
       </div>
-      <div className="bg-[#ffde4d] h-full py-10 px-6 fixed right-0 flex">
+      <div className="bg-[#ffde4d] h-full py-10 px-6 fixed right-0 shadow-2xl">
         <div className="text-[14px] flex flex-col gap-3 pt-28">
           <Link to="#" className="font-normal !leading-[133%] text-base">
             All Beers
@@ -30,6 +39,9 @@ const SideBar = () => {
           <Link to="#" className="font-normal !leading-[133%] text-base">
             Beer Packages
           </Link>
+        </div>
+        <div className="md:hidden flex pt-6">
+          <NavIcons />
         </div>
       </div>
     </div>

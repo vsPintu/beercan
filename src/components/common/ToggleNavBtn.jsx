@@ -2,8 +2,7 @@ import React, { useState, useContext } from "react";
 import { toggleContext } from "./Context";
 
 const ToggleNavBtn = () => {
-    const {toggleNavBtn, setToggleNavBtn} = useContext(toggleContext);
-    console.log(toggleNavBtn)
+  const { toggleNavBtn, setToggleNavBtn } = useContext(toggleContext);
   return (
     <div
       onClick={() => setToggleNavBtn(!toggleNavBtn)}
