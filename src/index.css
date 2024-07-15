@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 :root::-webkit-scrollbar{
     display: none;
 }
@@ -10,6 +11,44 @@
     /* background: url('./assets/images/homepage/webp/hero_bg_image.webp'); */
     background-position: center;
     background-size: 100% 100%;
+=======
+.slick-prev:before {
+  content: url("./assets/images/homepage/svg/left-arrow.svg");
+  opacity: 1;
+}
+.slick-next:before {
+  content: url("./assets/images/homepage/svg/right-arrow.svg");
+  opacity: 1;
+}
+.slick-prev,
+.slick-next {
+  top: -80px !important;
+  display: block;
+  width: 40px !important;
+  height: 40px !important;
+  border: 2px solid black !important;
+  border-radius: 50% !important;
+  transform: translate(0, 0) !important;
+  overflow: hidden;
+}
+.slick-prev {
+  left: unset !important;
+  right: 75px !important;
+}
+.slick-next {
+  right: 5px !important;
+}
+.slick-prev:hover {
+  background-color: #ffcc02;
+}
+.slick-next:hover {
+  background-color: #ffcc02;
+}
+.bg_image {
+  /* background: url('./assets/images/homepage/webp/hero_bg_image.webp'); */
+  background-position: center;
+  background-size: 100% 100%;
+>>>>>>> f16ca9ebce58068dafe8eda80cb034de398599c5
 }
 .no-scroll{
     overflow: hidden;

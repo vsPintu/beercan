@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import adroit from "../../assets/images/homepage/webp/adroit-png.webp";
 import amundsen from "../../assets/images/homepage/webp/image 76.webp";
 import moersleutel from "../../assets/images/homepage/webp/image 75.webp";
@@ -66,3 +67,65 @@ export const bottle = [
 ];
 
 export const heroSliderLogo = [adroit, amundsen, moersleutel, fuerst, frontaal];
+=======
+
+export const bottle = [
+    {
+        image:'/src/assets/images/homepage/png/rebelcan1.png',
+        save:'Save 10%',
+        disc:'Puhaste_ Faba_ bourbon BA (Silvers Series)',
+        para: 'IPA | 5,7| 12*33cl',
+        rating: '7.59',
+    },
+    {
+        image:'/src/assets/images/homepage/png/rebelcan2.png',
+        save:'Save 10%',
+        disc:'Puhaste_ Faba_ bourbon BA (Silvers Series)',
+        para: 'IPA | 5,7| 12*33cl',
+        rating: '7.59',
+    },
+    {
+        image:'/src/assets/images/homepage/png/rebelcan1.png',
+        save:'Save 10%',
+        disc:'Puhaste_ Faba_ bourbon BA (Silvers Series)',
+        para: 'IPA | 5,7| 12*33cl',
+        rating: '7.59',
+    },
+    {
+        image:'/src/assets/images/homepage/png/rebelcan2.png',
+        save:'Save 10%',
+        disc:'Puhaste_ Faba_ bourbon BA (Silvers Series)',
+        para: 'IPA | 5,7| 12*33cl',
+        rating: '7.59',
+    },
+    {
+        image:'/src/assets/images/homepage/png/rebelcan1.png',
+        save:'Save 10%',
+        disc:'Puhaste_ Faba_ bourbon BA (Silvers Series)',
+        para: 'IPA | 5,7| 12*33cl',
+        rating: '7.59',
+    },
+    {
+        image:'/src/assets/images/homepage/png/rebelcan2.png',
+        save:'Save 10%',
+        disc:'Puhaste_ Faba_ bourbon BA (Silvers Series)',
+        para: 'IPA | 5,7| 12*33cl',
+        rating: '7.59',
+    },
+    {
+        image:'/src/assets/images/homepage/png/rebelcan1.png',
+        save:'Save 10%',
+        disc:'Puhaste_ Faba_ bourbon BA (Silvers Series)',
+        para: 'IPA | 5,7| 12*33cl',
+        rating: '7.59',
+    },
+    {
+        image:'/src/assets/images/homepage/png/rebelcan2.png',
+        save:'Save 10%',
+        disc:'Puhaste_ Faba_ bourbon BA (Silvers Series)',
+        para: 'IPA | 5,7| 12*33cl',
+        rating: '7.59',
+    },
+   
+]
+>>>>>>> f16ca9ebce58068dafe8eda80cb034de398599c5
