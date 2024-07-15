@@ -14,7 +14,7 @@ function App() {
       <FreeShipping />
       <Header />
       <RebelCardSlider />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
