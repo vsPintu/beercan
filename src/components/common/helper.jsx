@@ -1,3 +1,9 @@
+import adroit from "../../assets/images/homepage/webp/adroit-png.webp";
+import amundsen from "../../assets/images/homepage/webp/image 76.webp";
+import moersleutel from "../../assets/images/homepage/webp/image 75.webp";
+import fuerst from "../../assets/images/homepage/webp/Fuerst Wiacek 1.webp";
+import frontaal from "../../assets/images/homepage/webp/Frontaal_Logo_Wikipedia 1.webp";
+
 export const image = [
   {
     img: "/src/assets/New_Skull.png",
@@ -58,3 +64,5 @@ export const bottle = [
     rating: "7.59",
   },
 ];
+
+export const heroSliderLogo = [adroit, amundsen, moersleutel, fuerst, frontaal];
