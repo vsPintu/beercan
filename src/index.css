@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-:root::-webkit-scrollbar{
-    display: none;
-}
-
-.bg_image{
-    /* background: url('./assets/images/homepage/webp/hero_bg_image.webp'); */
-    background-position: center;
-    background-size: 100% 100%;
-=======
 .slick-prev:before {
   content: url("./assets/images/homepage/svg/left-arrow.svg");
   opacity: 1;
@@ -48,8 +38,11 @@
   /* background: url('./assets/images/homepage/webp/hero_bg_image.webp'); */
   background-position: center;
   background-size: 100% 100%;
->>>>>>> f16ca9ebce58068dafe8eda80cb034de398599c5
 }
 .no-scroll{
     overflow: hidden;
+}
+
+:root::-webkit-scrollbar{
+  display: none;
 }

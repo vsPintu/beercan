@@ -27,7 +27,7 @@ const Hero = () => {
           <img
             src={heroCanImage}
             alt="can"
-            className="max-h-[232px] lg:max-h-[532px] lg:pt-[74px] lg:pl-[40px]"
+            className=" lg:pt-[74px] lg:pl-[40px]"
           />
           <img
             src={canShadow}
